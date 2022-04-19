@@ -19,7 +19,7 @@
 * Select the controller file you edited from the previous steps
 * Submit and your url shortener is ready
 
-![App](https://github.com/titansys/gateways/blob/master/screenshot.png)
+![App](https://github.com/titansys/zender-shorteners/blob/master/screenshot.png)
 
 # Shortener Request
 
