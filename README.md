@@ -12,6 +12,7 @@
 | [Angvlar](https://short.angvlar.com/) | Released | Titan Systems |
 | [Cut.ly](https://cur.ly) | Released | [Damien Benedetti](https://github.com/damidani/) |
 | [PHPshort](https://codecanyon.net/item/phpshort-url-shortener-software/26536593) | Released | [Damien Benedetti](https://github.com/damidani/) |
+| [Premium Url Shortener](https://codecanyon.net/item/premium-url-shortener/3688135) | Released | [Damien Benedetti](https://github.com/damidani/) |
 
 # Usage
 
