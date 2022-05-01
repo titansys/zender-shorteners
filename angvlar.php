@@ -15,7 +15,7 @@ function shortenUrl($url, &$system){
 	$domainId = 1; // (int) The domain ID the link to be saved under.
 	$protocol = "https"; // Angvlar protocol, it can be https or http
 
-	$shorten = json_decode($system->guzzle->post("https://api-ssl.bitly.com/v4/shorten", [
+	$shorten = json_decode($system->guzzle->post("https://short.angvlar.com/api/v1/links", [
 		"headers" => [
 			"Authorization" => "Bearer {$apiKey}"
 		],
