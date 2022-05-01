@@ -6,9 +6,10 @@
 
 # Available Controllers
 
-| Gateway | Status |
-| ------ | ------ |
-| Bitly | Released |
+| Gateway | Status | Author |
+| ------ | ------ | ------ |
+| Bitly | Released | Titan Systems |
+| Angvlar | Released | Titan Systems |
 
 # Usage
 
