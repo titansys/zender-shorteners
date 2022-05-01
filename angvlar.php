@@ -17,7 +17,6 @@ function shortenUrl($url, &$system){
 
 	$shorten = json_decode($system->guzzle->post("https://api-ssl.bitly.com/v4/shorten", [
 		"headers" => [
-			"Content-Type: application/x-www-form-urlencoded",
 			"Authorization" => "Bearer {$apiKey}"
 		],
 		"form_params" => [
