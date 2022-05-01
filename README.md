@@ -2,13 +2,16 @@
 
 ![Status](https://img.shields.io/badge/status-released-blue?style=for-the-badge)
 
-🔩 Zender shortener controller files for different providers
+?? Zender shortener controller files for different providers
 
 # Available Controllers
 
-| Gateway | Status |
-| ------ | ------ |
-| Bitly | Released |
+| Gateway | Status | Author |
+| ------ | ------ | ------ |
+| [Bit.ly](https://bitly.com/) | Released | Titan Systems |
+| [Angvlar](https://short.angvlar.com/) | Released | Titan Systems |
+| [Cut.ly](https://cur.ly) | Released | [Damien Benedetti](https://github.com/damidani/) |
+| [PHPshort](https://codecanyon.net/item/phpshort-url-shortener-software/26536593) | Released | [Damien Benedetti](https://github.com/damidani/) |
 
 # Usage
 
