@@ -8,8 +8,8 @@
 
 | Gateway | Status | Author |
 | ------ | ------ | ------ |
-| Bitly | Released | Titan Systems |
-| Angvlar | Released | Titan Systems |
+| [Bit.ly](https://bitly.com/) | Released | Titan Systems |
+| [Angvlar](https://short.angvlar.com/) | Released | Titan Systems |
 
 # Usage
 
