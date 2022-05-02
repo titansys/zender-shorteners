@@ -11,18 +11,12 @@ function shortenUrl($url, &$system){
 	 * @return false:Failed
 	 */
 
-	$accessToken = "ACCESS_TOKEN";
+	$accessToken = "ACCESS_TOKEN"; // Your cutt.ly token/key
 
-	$url = urlencode($url);
-
-
-
-
-	$data = json_decode($system->guzzle->post("https://cutt.ly/api/api.php?key=$accessToken&short=$url", [
+	$data = json_decode($system->guzzle->post("https://cutt.ly/api/api.php?key={$accessToken}&short=" . urlencode($url), [
         "allow_redirects" => true,
         "http_errors" => false
 	])->getBody()->getContents(), true);
 
-
-	return $data['url']['status'] != 7 ? false : $data['url']['shortLink'];
+	return $data["url"]["status"] != 7 ? false : $data["url"]["shortLink"];
 }

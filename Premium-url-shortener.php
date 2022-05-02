@@ -12,15 +12,13 @@ function shortenUrl($url, &$system){
 	 * @return false:Failed
 	 */
  
-	$accessToken = "ACCESS_TOKEN";
-	$urlSystem = "URl_BASE_PHPSHORTS";
+	$accessToken = "ACCESS_TOKEN"; // API token/key
+	$urlSystem = "SITE_URL"; // Your premium url shortener site url. eg. https://mydomain.com
  
- 
-	$data = json_decode($system->guzzle->post("https://$urlSystem/api/url/add", [
+	$data = json_decode($system->guzzle->post("{$urlSystem}/api/url/add", [
 		"headers" => [
-			"Authorization" => "Bearer $accessToken",
+			"Authorization" => "Bearer {$accessToken}",
 		    "Content-Type: application/json"
- 
 		],
 		"json" => [
 			"url" => $url
@@ -29,6 +27,5 @@ function shortenUrl($url, &$system){
         "http_errors" => false
 	])->getBody()->getContents(), true);
  
-	return $data['error'] != 0 ? false : $data['shorturl'];
+	return $data["error"] != 0 ? false : $data["shorturl"];
 }
-

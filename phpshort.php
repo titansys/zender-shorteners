@@ -1,7 +1,7 @@
 <?php
 /**
  * Phpshort Shortener Controller
- * Script codecanyon https://codecanyon.net/item/phpshort-url-shortener-software/26536593
+ * @url https://codecanyon.net/item/phpshort-url-shortener-software/26536593
  * @author Damien Benedetti <damien@benedetti.ovh>
  */
 
@@ -12,24 +12,22 @@ function shortenUrl($url, &$system){
 	 * @return false:Failed
 	 */
 
-	$accessToken = "ACCESS_TOKEN";
-	$urlSystem = "URl_BASE_PHPSHORTS";
+	$apiKey = "API_KEY"; // API Key from a phpshort account
+	$domainId = 1; // (int) The domain ID the link to be saved under.
+	$siteUrl = "https://mydomain.com"; // Your phpshort site url. eg. https://mydomain.com
+	$protocol = "https"; // Your phpshort site protocol, https or http
 
-
-
-
-	$data = json_decode($system->guzzle->post("https://$urlSystem/api/v1/links", [
+	$shorten = json_decode($system->guzzle->post("{$siteUrl}/api/v1/links", [
 		"headers" => [
-			"Authorization" => "Bearer $accessToken"
+			"Authorization" => "Bearer {$apiKey}"
 		],
-		'form_params' => [
-       		 'url' => $url
-       	],
+		"form_params" => [
+			"url" => $url,
+			"domain" => $domainId
+		],
         "allow_redirects" => true,
         "http_errors" => false
 	])->getBody()->getContents(), true);
 
-
-
-	return !isset($data['data']['short_url']) ? false : $data['data']['short_url'];
+	return $shorten["status"] == 200 ? "{$protocol}://{$shorten["data"]["short_url"]}" : false;
 }

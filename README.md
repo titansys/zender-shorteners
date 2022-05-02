@@ -9,10 +9,9 @@
 | Gateway | Status | Author |
 | ------ | ------ | ------ |
 | [Bit.ly](https://bitly.com/) | Released | Titan Systems |
-| [Angvlar](https://short.angvlar.com/) | Released | Titan Systems |
-| [Cut.ly](https://cur.ly) | Released | [Damien Benedetti](https://github.com/damidani/) |
-| [PHPshort](https://codecanyon.net/item/phpshort-url-shortener-software/26536593) | Released | [Damien Benedetti](https://github.com/damidani/) |
-| [Premium Url Shortener](https://codecanyon.net/item/premium-url-shortener/3688135) | Released | [Damien Benedetti](https://github.com/damidani/) |
+| [Cut.ly](https://cutt.ly) | Released | [Damien Benedetti](https://github.com/damidani/) |
+| [PHPShort](https://codecanyon.net/item/phpshort-url-shortener-software/26536593) | Released | [Damien Benedetti](https://github.com/damidani/) |
+| [Premium URL Shortener](https://codecanyon.net/item/premium-url-shortener/3688135) | Released | [Damien Benedetti](https://github.com/damidani/) |
 
 # Usage
 
