@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/status-released-blue?style=for-the-badge)
 
-?? Zender shortener controller files for different providers
+🔩 Zender shortener controller files for different providers
 
 # Available Controllers
 
