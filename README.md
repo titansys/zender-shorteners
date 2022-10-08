@@ -9,6 +9,7 @@
 | Gateway | Status | Author |
 | ------ | ------ | ------ |
 | [Bit.ly](https://bitly.com/) | Released | Titan Systems |
+| [Yourls.org](https://yourls.org/) | Released | Titan Systems |
 | [Switchy.io](https://www.switchy.io/) | Released | Titan Systems |
 | [Cutt.ly](https://cutt.ly) | Released | [Damien Benedetti](https://github.com/damidani/) |
 | [PHPShort](https://codecanyon.net/item/phpshort-url-shortener-software/26536593) | Released | [Damien Benedetti](https://github.com/damidani/) |
