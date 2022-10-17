@@ -28,7 +28,7 @@ function shortenUrl($url, &$system){
 	])->getBody()->getContents(), true);
 
 	try {
-		$sUrl = $shorten["shorturl"] == "success" ? $shorten["shorturl"] : false;
+		$sUrl = $shorten["status"] == "success" ? $shorten["shorturl"] : false;
 	} catch(Exception $e){
 		$sUrl = false;
 	}
