@@ -12,6 +12,7 @@
 | [Yourls.org](https://yourls.org/) | Released | Titan Systems |
 | [Switchy.io](https://www.switchy.io/) | Released | Titan Systems |
 | [66biolinks](https://codecanyon.net/item/biolink-boost-instagram-bio-linking/20740546) | Released | Titan Systems |
+| [BeLink](https://codecanyon.net/item/belink-ultimate-url-shortener/24354590) | Released | Titan Systems |
 | [Cutt.ly](https://cutt.ly) | Released | [Damien Benedetti](https://github.com/damidani/) |
 | [PHPShort](https://codecanyon.net/item/phpshort-url-shortener-software/26536593) | Released | [Damien Benedetti](https://github.com/damidani/) |
 | [Premium URL Shortener](https://codecanyon.net/item/premium-url-shortener/3688135) | Released | [Damien Benedetti](https://github.com/damidani/) |
